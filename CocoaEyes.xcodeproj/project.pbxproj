@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD7085031C62F9DE00BD5B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7085021C62F9DE00BD5B4E /* AppDelegate.m */; };
+		FD7085061C62F9DE00BD5B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7085051C62F9DE00BD5B4E /* main.m */; };
+		FD7085091C62F9DE00BD5B4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7085081C62F9DE00BD5B4E /* ViewController.m */; };
+		FD70850B1C62F9DE00BD5B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD70850A1C62F9DE00BD5B4E /* Assets.xcassets */; };
+		FD70850E1C62F9DE00BD5B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD70850C1C62F9DE00BD5B4E /* Main.storyboard */; };
+		FD7085191C62F9DE00BD5B4E /* CocoaEyesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7085181C62F9DE00BD5B4E /* CocoaEyesTests.m */; };
+		FD7085241C62F9DE00BD5B4E /* CocoaEyesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7085231C62F9DE00BD5B4E /* CocoaEyesUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD7085151C62F9DE00BD5B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7084F61C62F9DE00BD5B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7084FD1C62F9DE00BD5B4E;
+			remoteInfo = CocoaEyes;
+		};
+		FD7085201C62F9DE00BD5B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7084F61C62F9DE00BD5B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7084FD1C62F9DE00BD5B4E;
+			remoteInfo = CocoaEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD7084FE1C62F9DE00BD5B4E /* CocoaEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7085011C62F9DE00BD5B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD7085021C62F9DE00BD5B4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD7085051C62F9DE00BD5B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD7085071C62F9DE00BD5B4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FD7085081C62F9DE00BD5B4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FD70850A1C62F9DE00BD5B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD70850D1C62F9DE00BD5B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD70850F1C62F9DE00BD5B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7085141C62F9DE00BD5B4E /* CocoaEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7085181C62F9DE00BD5B4E /* CocoaEyesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaEyesTests.m; sourceTree = "<group>"; };
+		FD70851A1C62F9DE00BD5B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD70851F1C62F9DE00BD5B4E /* CocoaEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7085231C62F9DE00BD5B4E /* CocoaEyesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaEyesUITests.m; sourceTree = "<group>"; };
+		FD7085251C62F9DE00BD5B4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7084FB1C62F9DE00BD5B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7085111C62F9DE00BD5B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD70851C1C62F9DE00BD5B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7084F51C62F9DE00BD5B4E = {
+			isa = PBXGroup;
+			children = (
+				FD7085001C62F9DE00BD5B4E /* CocoaEyes */,
+				FD7085171C62F9DE00BD5B4E /* CocoaEyesTests */,
+				FD7085221C62F9DE00BD5B4E /* CocoaEyesUITests */,
+				FD7084FF1C62F9DE00BD5B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7084FF1C62F9DE00BD5B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7084FE1C62F9DE00BD5B4E /* CocoaEyes.app */,
+				FD7085141C62F9DE00BD5B4E /* CocoaEyesTests.xctest */,
+				FD70851F1C62F9DE00BD5B4E /* CocoaEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7085001C62F9DE00BD5B4E /* CocoaEyes */ = {
+			isa = PBXGroup;
+			children = (
+				FD7085011C62F9DE00BD5B4E /* AppDelegate.h */,
+				FD7085021C62F9DE00BD5B4E /* AppDelegate.m */,
+				FD7085071C62F9DE00BD5B4E /* ViewController.h */,
+				FD7085081C62F9DE00BD5B4E /* ViewController.m */,
+				FD70850A1C62F9DE00BD5B4E /* Assets.xcassets */,
+				FD70850C1C62F9DE00BD5B4E /* Main.storyboard */,
+				FD70850F1C62F9DE00BD5B4E /* Info.plist */,
+				FD7085041C62F9DE00BD5B4E /* Supporting Files */,
+			);
+			path = CocoaEyes;
+			sourceTree = "<group>";
+		};
+		FD7085041C62F9DE00BD5B4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD7085051C62F9DE00BD5B4E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD7085171C62F9DE00BD5B4E /* CocoaEyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7085181C62F9DE00BD5B4E /* CocoaEyesTests.m */,
+				FD70851A1C62F9DE00BD5B4E /* Info.plist */,
+			);
+			path = CocoaEyesTests;
+			sourceTree = "<group>";
+		};
+		FD7085221C62F9DE00BD5B4E /* CocoaEyesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD7085231C62F9DE00BD5B4E /* CocoaEyesUITests.m */,
+				FD7085251C62F9DE00BD5B4E /* Info.plist */,
+			);
+			path = CocoaEyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7084FD1C62F9DE00BD5B4E /* CocoaEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7085281C62F9DE00BD5B4E /* Build configuration list for PBXNativeTarget "CocoaEyes" */;
+			buildPhases = (
+				FD7084FA1C62F9DE00BD5B4E /* Sources */,
+				FD7084FB1C62F9DE00BD5B4E /* Frameworks */,
+				FD7084FC1C62F9DE00BD5B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaEyes;
+			productName = CocoaEyes;
+			productReference = FD7084FE1C62F9DE00BD5B4E /* CocoaEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD7085131C62F9DE00BD5B4E /* CocoaEyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD70852B1C62F9DE00BD5B4E /* Build configuration list for PBXNativeTarget "CocoaEyesTests" */;
+			buildPhases = (
+				FD7085101C62F9DE00BD5B4E /* Sources */,
+				FD7085111C62F9DE00BD5B4E /* Frameworks */,
+				FD7085121C62F9DE00BD5B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7085161C62F9DE00BD5B4E /* PBXTargetDependency */,
+			);
+			name = CocoaEyesTests;
+			productName = CocoaEyesTests;
+			productReference = FD7085141C62F9DE00BD5B4E /* CocoaEyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD70851E1C62F9DE00BD5B4E /* CocoaEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD70852E1C62F9DE00BD5B4E /* Build configuration list for PBXNativeTarget "CocoaEyesUITests" */;
+			buildPhases = (
+				FD70851B1C62F9DE00BD5B4E /* Sources */,
+				FD70851C1C62F9DE00BD5B4E /* Frameworks */,
+				FD70851D1C62F9DE00BD5B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7085211C62F9DE00BD5B4E /* PBXTargetDependency */,
+			);
+			name = CocoaEyesUITests;
+			productName = CocoaEyesUITests;
+			productReference = FD70851F1C62F9DE00BD5B4E /* CocoaEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7084F61C62F9DE00BD5B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jason Kasper";
+				TargetAttributes = {
+					FD7084FD1C62F9DE00BD5B4E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FD7085131C62F9DE00BD5B4E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FD7084FD1C62F9DE00BD5B4E;
+					};
+					FD70851E1C62F9DE00BD5B4E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FD7084FD1C62F9DE00BD5B4E;
+					};
+				};
+			};
+			buildConfigurationList = FD7084F91C62F9DE00BD5B4E /* Build configuration list for PBXProject "CocoaEyes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7084F51C62F9DE00BD5B4E;
+			productRefGroup = FD7084FF1C62F9DE00BD5B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7084FD1C62F9DE00BD5B4E /* CocoaEyes */,
+				FD7085131C62F9DE00BD5B4E /* CocoaEyesTests */,
+				FD70851E1C62F9DE00BD5B4E /* CocoaEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7084FC1C62F9DE00BD5B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD70850B1C62F9DE00BD5B4E /* Assets.xcassets in Resources */,
+				FD70850E1C62F9DE00BD5B4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7085121C62F9DE00BD5B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD70851D1C62F9DE00BD5B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7084FA1C62F9DE00BD5B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7085091C62F9DE00BD5B4E /* ViewController.m in Sources */,
+				FD7085061C62F9DE00BD5B4E /* main.m in Sources */,
+				FD7085031C62F9DE00BD5B4E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD7085101C62F9DE00BD5B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7085191C62F9DE00BD5B4E /* CocoaEyesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD70851B1C62F9DE00BD5B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7085241C62F9DE00BD5B4E /* CocoaEyesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD7085161C62F9DE00BD5B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7084FD1C62F9DE00BD5B4E /* CocoaEyes */;
+			targetProxy = FD7085151C62F9DE00BD5B4E /* PBXContainerItemProxy */;
+		};
+		FD7085211C62F9DE00BD5B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7084FD1C62F9DE00BD5B4E /* CocoaEyes */;
+			targetProxy = FD7085201C62F9DE00BD5B4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD70850C1C62F9DE00BD5B4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD70850D1C62F9DE00BD5B4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7085261C62F9DE00BD5B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FD7085271C62F9DE00BD5B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FD7085291C62F9DE00BD5B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaEyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.movingparts.CocoaEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD70852A1C62F9DE00BD5B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaEyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.movingparts.CocoaEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD70852C1C62F9DE00BD5B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaEyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.movingparts.CocoaEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaEyes.app/Contents/MacOS/CocoaEyes";
+			};
+			name = Debug;
+		};
+		FD70852D1C62F9DE00BD5B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaEyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.movingparts.CocoaEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaEyes.app/Contents/MacOS/CocoaEyes";
+			};
+			name = Release;
+		};
+		FD70852F1C62F9DE00BD5B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaEyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.movingparts.CocoaEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CocoaEyes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FD7085301C62F9DE00BD5B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaEyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.movingparts.CocoaEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CocoaEyes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7084F91C62F9DE00BD5B4E /* Build configuration list for PBXProject "CocoaEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7085261C62F9DE00BD5B4E /* Debug */,
+				FD7085271C62F9DE00BD5B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7085281C62F9DE00BD5B4E /* Build configuration list for PBXNativeTarget "CocoaEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7085291C62F9DE00BD5B4E /* Debug */,
+				FD70852A1C62F9DE00BD5B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD70852B1C62F9DE00BD5B4E /* Build configuration list for PBXNativeTarget "CocoaEyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD70852C1C62F9DE00BD5B4E /* Debug */,
+				FD70852D1C62F9DE00BD5B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD70852E1C62F9DE00BD5B4E /* Build configuration list for PBXNativeTarget "CocoaEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD70852F1C62F9DE00BD5B4E /* Debug */,
+				FD7085301C62F9DE00BD5B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7084F61C62F9DE00BD5B4E /* Project object */;
+}
