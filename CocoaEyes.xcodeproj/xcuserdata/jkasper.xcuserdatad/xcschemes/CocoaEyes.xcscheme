@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD7084FD1C62F9DE00BD5B4E"
+               BuildableName = "CocoaEyes.app"
+               BlueprintName = "CocoaEyes"
+               ReferencedContainer = "container:CocoaEyes.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD7085131C62F9DE00BD5B4E"
+               BuildableName = "CocoaEyesTests.xctest"
+               BlueprintName = "CocoaEyesTests"
+               ReferencedContainer = "container:CocoaEyes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FD70851E1C62F9DE00BD5B4E"
+               BuildableName = "CocoaEyesUITests.xctest"
+               BlueprintName = "CocoaEyesUITests"
+               ReferencedContainer = "container:CocoaEyes.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FD7084FD1C62F9DE00BD5B4E"
+            BuildableName = "CocoaEyes.app"
+            BlueprintName = "CocoaEyes"
+            ReferencedContainer = "container:CocoaEyes.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FD7084FD1C62F9DE00BD5B4E"
+            BuildableName = "CocoaEyes.app"
+            BlueprintName = "CocoaEyes"
+            ReferencedContainer = "container:CocoaEyes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FD7084FD1C62F9DE00BD5B4E"
+            BuildableName = "CocoaEyes.app"
+            BlueprintName = "CocoaEyes"
+            ReferencedContainer = "container:CocoaEyes.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
